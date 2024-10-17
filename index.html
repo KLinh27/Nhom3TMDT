@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"
+    />
+     <!--font font-awesome link-->
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <link rel="stylesheet" href="styles.css" />
+    <title>Furit</title>
+  </head>
+  <body>
+    <header class="header">
+      <nav>
+        <div class="nav__logo"><a href="#"><img src="assets/logoFurit.png" alt="">Furit</a></div>
+        <ul class="nav__links" id="nav-links">
+          <li class="link"><a href="#home">Trang chủ</a></li>
+          <li class="link"><a href="#choose">Giới thiệu</a></li>
+          <li class="link"><a href="#craft">Shop</a></li>
+          <li class="link"><a href="#blog">Blog</a></li>
+        </ul>
+        <div class="nav__menu__btn" id="menu-btn">
+          <span><i class="ri-menu-line"></i></span>
+        </div>
+        <div class="nav__actions">
+          <span><i class="ri-search-fill"></i></span>
+          <span><i class="ri-user-fill"></i></span>
+        </div>
+      </nav>
+      <div class="section__container header__container" id="home">
+        <h1>Nâng tầm nhan sắc</h1>
+        <p>
+          Thương hiệu mỹ phẩm Việt Nam, mang đến giải pháp trang điểm dễ dàng cho phụ nữ Việt.
+        </p>
+        <form action="/">
+          <input type="text" placeholder="Search furniture" />
+          <button><i class="ri-search-line"></i></button>
+        </form>
+        <a href="#choose"><i class="ri-arrow-down-double-line"></i></a>
+      </div>
+    </header>
+
+    <section class="section__container choose__container" id="choose">
+      <img class="choose__bg" src="assets/dot-bg.png" alt="bg" />
+      <div class="choose__content">
+        <h2 class="section__header">Tại sao chọn Velour</h2>
+        <p class="section__subheader">
+          Velour nói không với việc thử nghiệm sản phẩm trên cơ thể động vật, luôn đề cao tính nhân quyền và bảo vệ môi trường.
+        </p>
+        <div class="choose__grid">
+          <div class="choose__card">
+            <span><i class="ri-truck-line"></i></span>
+            <h4>Giao hàng nhanh và miễn phí</h4>
+            <p>
+             Lưu giữ thanh xuân của bạn 
+              Giao hàng nhanh & Miễn phí của chúng tôi mà không chậm trễ
+            </p>
+          </div>
+          <div class="choose__card">
+            <span><i class="ri-shopping-bag-3-line"></i></span>
+            <h4>Dễ dàng mua sắm</h4>
+            <p>
+              Khám phá vẻ đẹp của bạn: Khám phá các giải pháp thiết kế nội thất dễ mua của chúng tôi
+            </p>
+          </div>
+          <div class="choose__card">
+            <span><i class="ri-customer-service-2-line"></i></span>
+            <h4>Hỗ trợ 24/7</h4>
+            <p>
+              Hãy yên tâm vì đội ngũ tận tâm của chúng tôi luôn sẵn sàng phục vụ bạn 24/7
+            </p>
+          </div>
+          <div class="choose__card">
+            <span><i class="ri-loop-right-line"></i></span>
+            <h4>Trả hàng không rắc rối</h4>
+            <p>
+              Chúng tôi tin vào sự kết hợp hoàn hảo và nếu không phù hợp, 
+              chúng tôi sẽ giúp bạn trả lại sản phẩm một cách dễ dàng
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="choose__image">
+        <img src="assets/choo.jpg" alt="choose" />
+      </div>
+    </section>
+
+    <section class="offer__container" id="offer">
+      <div class="offer__grid__top">
+        <img src="assets/offer-1.jpg" alt="offer" />
+        <img src="assets/offer-2.jpg" alt="offer" />
+        <img src="assets/offer-3.jpg" alt="offer" />
+        <div class="offer__content">
+          <h2 class="section__header">Ưu đãi siêu hời</h2>
+          <p class="section__subheader">
+            Khám phá các ưu đãi độc quyền để nâng tầm nhan sắc của bạn theo cách của riêng của bạn
+          </p>
+          <button class="btn">Khám phá ngay</button>
+        </div>
+      </div>
+      <div class="offer__grid__bottom">
+        <img src="assets/offer-4.jpg" alt="offer" />
+        <img src="assets/offer-5.jpg" alt="offer" />
+        <img src="assets/offer-6.jpg" alt="offer" />
+        <img src="assets/offer-7.jpg" alt="offer" />
+      </div>
+    </section>
+
+    <section class="section__container craft__container" id="craft">
+      <div class="craft__content">
+        <h2 class="section__header">Không thử nghiệm trên động vật</h2>
+        <p class="section__subheader">
+          nói không với việc thử nghiệm sản phẩm trên cơ thể động vật đề cao tính nhân quyền và bảo vệ môi trường.
+        </p>
+        <button class="btn">Khám phá</button>
+      </div>
+      <div class="swiper craft__image_container">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide craft__image">
+            <div class="craft__image__content">
+              <img src="assets/craft-3.png" alt="craft" />
+              <p>Bảng mắt Romand</p>
+              <h4>335.000 đ</h4>
+            </div>
+            <a href="#"><i class="ri-add-line"></i></a>
+          </div>
+          <div class="swiper-slide craft__image">
+            <div class="craft__image__content">
+              <img src="assets/craft-2.png" alt="craft" />
+              <p>Kem chống nắng nâng tone D'alba màu tím</p>
+              <h4>365.000 đ</h4>
+            </div>
+            <a href="#"><i class="ri-add-line"></i></a>
+          </div>
+          <div class="swiper-slide craft__image">
+            <div class="craft__image__content">
+              <img src="assets/craft-1.png" alt="craft" />
+              <p>Son bùn Fwee Pudding Pot</p>
+              <h4>335.000 đ</h4>
+            </div>
+            <a href="#"><i class="ri-add-line"></i></a>
+          </div>
+          <div class="swiper-slide craft__image">
+            <div class="craft__image__content">
+              <img src="assets/craft-4.png" alt="craft" />
+              <p>Cushion- Skintific Cover All Perfect Cushion </p>
+              <h4>250.000 đ</h4>
+            </div>
+            <a href="#"><i class="ri-add-line"></i></a>
+          </div>
+          <div class="swiper-slide craft__image">
+            <div class="craft__image__content">
+              <img src="assets/craft-5.png" alt="craft" />
+              <p>Flower Knows Midsummer Fairytales Collection Lip Gloss Dưỡng Ẩm Liquid Lipstick 5ml </p>
+              <h4>395.000 đ</h4>
+            </div>
+            <a href="#"><i class="ri-add-line"></i></a>
+          </div>
+          <div class="swiper-slide craft__image">
+            <div class="craft__image__content">
+              <img src="assets/craft-6.png" alt="craft" />
+              <p>Phấn phủ kiềm dầu thuần chay Lemonade</p>
+              <h4>.000 đ</h4>
+            </div>
+            <a href="#"><i class="ri-add-line"></i></a>
+          </div>
+          <div class="swiper-slide craft__image">
+            <div class="craft__image__content">
+              <img src="assets/craft-7.png" alt="craft" />
+              <p>Serum D'alba dạng xịt khoáng căng bóng da First Spray Serum</p>
+              <h4>335.000 đ</h4>
+            </div>
+            <a href="#"><i class="ri-add-line"></i></a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section__container modern__container" id="modern">
+      <div class="modern__image">
+        <img src="assets/dot-bg.png" alt="bg" class="modern__bg" />
+        <img src="assets/modern-1.jpg" alt="modern" class="modern__img-1" />
+        <img src="assets/chairs6.avif" alt="modern" class="modern__img-2" />
+        <img src="assets/modern-3.jpg" alt="modern" class="modern__img-3" />
+      </div>
+      <div class="modern__content">
+        <h2 class="section__header">
+          Chúng tôi giúp bạn chăm sóc sắc đẹp hiện đại
+        </h2>
+        <p class="section__subheader">
+         Biến đổi vẻ đẹp của bạn với chuyên môn chăm sóc sắc đẹp từ chúng tôi. 
+          Hãy để chúng tôi hướng dẫn bạn tìm ra những sản phẩm làm đẹp và phong cách trang điểm phản ánh sở thích và cá tính độc đáo của bạn.
+        </p>
+        <div class="modern__grid">
+          <div class="modern__card">
+            <span><i class="ri-checkbox-blank-circle-line"></i></span>
+            <p>
+              Nhóm của chúng tôi chuyên tư vấn các sản phẩm làm đẹp theo yêu cầu, mang phong cách hiện đại và tự nhiên.
+            </p>
+          </div>
+          <div class="modern__card">
+            <span><i class="ri-checkbox-blank-circle-line"></i></span>
+            <p>
+              Chúng tôi luôn cập nhật các xu hướng làm đẹp mới nhất, giúp bạn tỏa sáng và tự tin với phong cách riêng.
+            </p>
+          </div>
+          <div class="modern__card">
+            <span><i class="ri-checkbox-blank-circle-line"></i></span>
+            <p>
+              Sản phẩm làm đẹp của chúng tôi không chỉ nâng cao vẻ bề ngoài mà còn đảm bảo an toàn và hiệu quả cho sức khỏe làn da.
+            </p>
+          </div>
+          <div class="modern__card">
+            <span><i class="ri-checkbox-blank-circle-line"></i></span>
+            <p>
+              Chúng tôi cam kết hỗ trợ bạn trong mọi quá trình từ lựa chọn sản phẩm phù hợp đến cách sử dụng tối ưu và chăm sóc lâu dài.
+            </p>
+          </div>
+        </div>
+        <button class="btn">Khám phá</button>
+      </div>
+    </section>
+
+    <section class="section__container blog_container" id="blog">
+      <h2 class="section__header">Blog gần đây</h2>
+      <div class="blog__grid">
+        <div class="blog__card">
+          <img src="assets/blog-1.jpg" alt="blog" />
+          <h4>VÌ CHO ĐI LÀ CÒN MÃI..</h4>
+          <p><span>bởi</span> Quỳnh Trang <span>vào</span> ngày 20 tháng 5 năm 2022</p>
+        </div>
+        <div class="blog__card">
+          <img src="assets/blog-2.jpg" alt="blog" />
+          <h4>HÈ VỀ! HÈ VỀ!</h4>
+          <p>
+            <span>bởi</span> Thanh Thanh <span>vào</span> ngày 23 tháng 04 năm 2022</p>
+        </div>
+        <div class="blog__card">
+          <img src="assets/blog-3.jpg" alt="blog" />
+          <h4>Hộp quà cực yêu </h4>
+          <p><span>bởi</span> Hải Trân <span>vào</span> ngày 14 tháng 10 năm 2024</p>
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <div class="section__container footer__container">
+        <div class="footer__content">
+          <h4>ĐĂNG KÝ ĐỂ NHẬN TIN TỨC MỚI NHẤT VỀ CHÚNG TÔI</h4>
+          <p>
+            Chúng tôi khuyên bạn nên đăng ký nhận báo của chúng tôi. 
+            Nhập email của bạn để nhận thông tin cập nhật hàng ngày về chúng tôi
+          </p>
+        </div>
+      
+        <div class="footer__form">
+          <form action="/">
+            <input type="text" placeholder="Nhập email của bạn" />
+            <button>Đăng kí</button>
+          </form>
+        </div>
+      </div>
+      
+      <div class="section__container footer__bar">
+        <div class="footer__logo">
+          <h4><a href="#">Velour</a></h4>
+          <p>© 2024 Velour - 470 Tran Dai Nghia - Da Nang</p>
+          <p>+84 868492647 - Velourcometics@gmail.com</p>
+        </div>
+        <div>
+          <div class="socialIcons">
+            <a href="https://www.facebook.com/profile.php?id=100016577890112"><i class="fa-brands fa-facebook"></i></a>
+            <a href=""><i class="fa-brands fa-instagram"></i></a>
+            <a href=""><i class="fa-brands fa-twitter"></i></a>
+            <a href=""><i class="fa-brands fa-google-plus"></i></a>
+        </div>
+          <ul class="footer__nav">
+            <li class="footer__link"><a href="#">Giới thiệu</a></li>
+            <li class="footer__link"><a href="#">Hợp tác</a></li>
+            <li class="footer__link"><a href="#">Chính sách quyền riêng tư</a></li>
+          </ul>
+        </div>
+        </div>
+    </footer>
+
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+    <script src="main.js"></script>
+  </body>
+</html>
